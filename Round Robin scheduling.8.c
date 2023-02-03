@@ -58,4 +58,4 @@ avg_tat = tat * 1.0/NOP;
 printf("\n Average Turn Around Time: \t%f", avg_wt);  
 printf("\n Average Waiting Time: \t%f", avg_tat);  
 return 0; 
-}
+  }
