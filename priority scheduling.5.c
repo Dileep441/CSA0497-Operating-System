@@ -50,3 +50,31 @@ printf("\n Average Wait Time : %d \n",awt);
 printf("\n Average Turn Around Time : %d \n",atat);
 getch();
 }
+
+/*OUTPUT
+Enter the total number of Processes: 4
+Please Enter the  Burst Time and Priority of each process:
+Enter the details of the process A
+Enter the burst time: 6
+Enter the priority: 3
+Enter the details of the process B
+Enter the burst time: 8
+Enter the priority: 1
+Enter the details of the process C
+Enter the burst time: 9
+Enter the priority: 4
+Enter the details of the process D
+Enter the burst time: 3
+Enter the priority: 2
+Process_name     Burst Time      Waiting Time     Turnaround Time
+------------------------------------------------------------
+          C               9              0               9
+-----------------------------------------------------------
+          A               6              9               15
+-----------------------------------------------------------
+          D               3              15              18
+-----------------------------------------------------------
+          B               8              18              26
+-----------------------------------------------------------
+ Average Waiting Time : 10.500000
+ Average Turnaround Time: 17.000000
