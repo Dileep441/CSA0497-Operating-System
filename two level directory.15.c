@@ -101,3 +101,43 @@ default:exit(0);
 }
 return 0;
 }
+
+
+/* OUTPUT  
+1. Create Directory
+2. Create File
+3. Delete File
+4. Search File
+5. Display
+6. Exit
+Enter your choice --
+ 1
+Enter name of directory -- balaji
+Directory created
+1. Create Directory
+2. Create File
+3. Delete File
+4. Search File
+5. Display
+6. Exit
+Enter your choice --
+ 2
+Enter name of the directory -- balaji
+Enter name of the file -- operating system
+File created
+1. Create Directory
+2. Create File
+3. Delete File
+4. Search File
+5. Display
+6. Exit
+Enter your choice --
+Enter name of the directory -- Directory system not found
+1. Create Directory
+2. Create File
+3. Delete File
+4. Search File
+5. Display
+6. Exit
+Enter your choice --
+ 6
