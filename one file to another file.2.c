@@ -28,3 +28,10 @@ int main()
 	fclose(fptr2);
 	return 0;
 }
+
+OUTPUT:
+Enter the file to open for reading
+copy.cpp
+Enter the filename to open for writing
+copy2.cpp
+contents copied to copy2.cpp
