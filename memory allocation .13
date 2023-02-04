@@ -37,17 +37,13 @@ int main()
   return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter no. of blocks: 2
-
 Enter size of each block: 20
 30
-
 Enter no. of processes: 2
-
 Enter size of each process: 25
 22
-
 Block no.       size            process no.             size
 1               20              Not allocated
 2               30              1                       25
