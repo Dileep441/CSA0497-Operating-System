@@ -73,3 +73,30 @@ for(m=0;m<resource;m++)
 } printf("\n");
 }}
 }
+
+/* OUTPUT  
+Enter The Total Number Of Processes:    3
+Enter The Total Number Of Resources To Allocate:        3
+Enter The Claim Vector: 3 5 7
+Enter Allocated Resource Table:
+2 3 4
+1 3 5
+5 3 7
+Enter The Maximum Claim Table:
+1 4 2
+5 3 2
+1 6 3
+The Claim Vector
+        3       5       7
+ The Allocated Resource Table
+        2       3       4
+        1       3       5
+        5       3       7
+The Maximum Claim Table
+        1       4       2
+        5       3       2
+        1       6       3
+Allocated Resources
+        8       9       16
+Available Resources:    -5      -4      -9
+The Processes Are In An Unsafe State
